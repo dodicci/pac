@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
      dnsDomainIs(host, "yahooapis.jp") ||
      dnsDomainIs(host, "yimg.jp") ||
      dnsDomainIs(host, "yahoo.co.jp")
-  ) return "PROXY 23.227.38.94:80";
+  ) return "PROXY 198.8.94.170:4145";
 
   return "DIRECT";
 }
